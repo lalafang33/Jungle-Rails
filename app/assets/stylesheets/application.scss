@@ -111,3 +111,26 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
+.alert-success {
+  color: #0f5132;
+  background-color: #ecf8f1;
+  border-color: #ecf8f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+
+.homepage-button {
+  background: #aeebc8;
+  margin: 1em;
+  border-radius: 25px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-align: center;
+  transition: box-shadow 0.2s linear, background-color 0.15s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+}
