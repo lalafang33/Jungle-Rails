@@ -44,6 +44,9 @@ gem 'rmagick'
 gem 'faker'
 gem 'carrierwave'
 
+# Login user authentication 
+gem 'clearance', '~> 1.15.1d'
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
