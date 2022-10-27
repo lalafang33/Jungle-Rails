@@ -32,4 +32,12 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Final Product 
 
-!["New Appointment"](https://github.com/lalafang33/scheduler/blob/main/docs/New%20Appointment.png)
+!["Admin Dashboard Categories Count"](https://github.com/lalafang33/Jungle-Rails/blob/master/docs/Admin%20Dashboard%20Count.png)
+
+!["Admin Product Edit"](https://github.com/lalafang33/Jungle-Rails/blob/master/docs/Admin%20product%20edit.png)
+
+!["Cart Count"](https://github.com/lalafang33/Jungle-Rails/blob/master/docs/Cart%20.png)
+
+!["Signed In As:"](https://github.com/lalafang33/Jungle-Rails/blob/master/docs/Signed%20In%20as%20.png)
+
+!["Sold Out"](https://github.com/lalafang33/Jungle-Rails/blob/master/docs/Sold%20Out%20.png)
