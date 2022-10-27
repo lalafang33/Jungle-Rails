@@ -6,6 +6,38 @@
 
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
+    <%= form_tag orders_path do %>
+    <h4>Your email confirmation is sent to: <%= @order.email 
+    %>.</h4> 
+    <% end %>
+    <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th >Product</th>
+        <th>Unit Price</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+    <% @order.line_items.each do |item| %>
+      <%= render 'order', item: item %>
+      <% end %>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th colspan="4">
+          TOTAL:
+        </th>
+        <th>
+          $<%= @order.total_cents / 100.0 %>
+        </th>
+      </tr>
+    </tfoot>
+  </table>
+
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
