@@ -29,3 +29,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Final Product 
+
+!["New Appointment"](https://github.com/lalafang33/scheduler/blob/main/docs/New%20Appointment.png)
